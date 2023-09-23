@@ -81,11 +81,13 @@ nav li {
   overflow: visible;
 }
 
-.image,
-.image * {
-  box-sizing: border-box;
-}
-.image {
-  position: relative;
-  overflow: visible;
+.coconut-image {
+  top: -2.64%;
+  width: 773px;
+  height: 978px;
+  flex-shrink: 0;
+  position: absolute;
+  left: 42.6%;
+  /* mix-blend-mode: darken; */
+  z-index: -1;
 }
