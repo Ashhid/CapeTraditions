@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inria+Sans:wght@300&display=swap");
+
+body {
+  margin: 0;
+}
+
+* {
+  font-family: "Inria Sans", sans-serif;
+}
+
+.logo,
+.logo * {
+  box-sizing: border-box;
+}
+.logo {
+  width: 79px;
+  height: 79px;
+  position: static;
+}
+
+.ellipse-1 {
+  background: #d9d9d9;
+  border-radius: 50%;
+  width: 79px;
+  height: 79px;
+  position: absolute;
+  left: 24px;
+  top: 22px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+
+.your-logo {
+  color: rgba(0, 0, 0, 0.7);
+  text-align: left;
+  font: 400 11px "Inria Sans", sans-serif;
+  position: absolute;
+  left: 41px;
+  top: 55px;
+}
+
+.title {
+  font: 40 48px "Inria Sans", sans-serif;
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  left: 27%;
+  top: 0%;
+  margin: 1%;
+
+  color: #ffffff;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  position: absolute;
+  top: 1%;
+  left: 67.5%;
+  margin: 0;
+  font: 400 18px "Inria Sans", sans-serif;
+}
+
+nav li {
+  white-space: nowrap;
+  padding: 0;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 15%;
+  font-weight: bold;
+}
+
+.brown-bg,
+.brown-bg * {
+  box-sizing: border-box;
+}
+.brown-bg {
+  position: relative;
+  overflow: visible;
+}
+
+.image,
+.image * {
+  box-sizing: border-box;
+}
+.image {
+  position: relative;
+  overflow: visible;
+}
