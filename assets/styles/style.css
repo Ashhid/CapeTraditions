@@ -91,3 +91,7 @@ nav li {
   /* mix-blend-mode: darken; */
   z-index: -1;
 }
+
+.black-overlay {
+  background-color: rgba(37, 34, 31, 0.7);
+}
