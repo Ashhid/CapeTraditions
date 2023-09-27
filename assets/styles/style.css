@@ -92,6 +92,11 @@ nav li {
   z-index: -1;
 }
 
-.black-overlay {
+#black-overlay {
+  position: absolute;
+  /* width: 100%; */
   background-color: rgba(37, 34, 31, 0.7);
+  padding-top: 100%;
+  z-index: -1;
+  /* top: 0%; */
 }
