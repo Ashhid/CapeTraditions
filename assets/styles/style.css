@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inria+Sans:wght@300&display=swap");
 
 body {
+  height: 100%;
   margin: 0;
 }
 
@@ -95,3 +96,16 @@ nav li {
 .black-overlay {
   background-color: rgba(37, 34, 31, 0.7);
 }
+
+/* .page2 {
+  width: 100%;
+  height: 100%;
+} */
+
+/* .bg1 {
+  position: relative;
+  color: red;
+  height: 100px;
+  width: 200px;
+  bottom: 1000px;
+} */
