@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap");
+
 * {
   font-family: "Playfair Display", serif;
 }
@@ -9,6 +12,7 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -25,33 +29,29 @@ body {
   border-radius: 2px;
 }
 
-/* Center content vertically and horizontally */
 body {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* Shared styles for pages */
 .page {
   position: relative;
   width: 100%;
   height: 100%;
 }
 
-/* Brown background */
 .brown-bg {
   position: absolute;
   z-index: 2;
 }
 
-/* Black overlay */
 .black-overlay {
   background-color: black;
   width: 100%;
   height: 100%;
   position: absolute;
-  opacity: 0.5;
+  opacity: 0.6;
   z-index: 1;
 }
 
@@ -86,31 +86,23 @@ body {
   left: -6%;
 }
 
-.fake-div {
-  width: 100%;
-  height: 100vh;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 99;
-  box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.3);
-}
 .title {
+  font-family: "Playfair Display", serif;
   position: absolute;
   z-index: 3;
   color: rgba(244, 226, 206, 1);
-  font-size: 50px;
+  font-size: 40px;
   margin: 0;
   padding: 0;
-  left: 17%;
+  left: 2%;
   margin-top: 5px;
 }
 
 nav {
   position: absolute;
   z-index: 3;
-  color: rgba(244, 226, 206, 1);
-  left: 70%;
+  right: 3%;
+  top: 1%;
 }
 
 nav ul {
@@ -119,11 +111,45 @@ nav ul {
 }
 
 nav li {
-  font-size: 19px;
+  font-size: 20px;
+  white-space: nowrap;
 }
 
 .about {
-  margin-right: 20px;
-  margin-left: 31px;
+  margin-right: 50px;
+  margin-left: 50px;
   width: 79px;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgba(244, 226, 206, 1);
+  position: relative;
+  text-decoration: none;
+}
+
+nav a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: #8f9900;
+  bottom: 0;
+  left: 0;
+  transition: width 0.5s ease;
+}
+
+nav a:hover::after {
+  width: 100%;
+}
+
+.product-name {
+  font-family: "Playfair Display", serif;
+  position: absolute;
+  z-index: 3;
+  color: rgba(244, 226, 206, 1);
+  font-size: 120px;
+  font-style: italic;
+  top: 10vh;
+  left: 15vh;
 }
