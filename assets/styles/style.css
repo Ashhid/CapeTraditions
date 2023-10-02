@@ -144,24 +144,34 @@ nav a:hover::after {
   width: 100%;
 }
 
+.content {
+  position: relative;
+  height: auto;
+  width: auto;
+  top: 27vh;
+  left: 0;
+}
+
 .product-name {
   font-family: "Playfair Display", serif;
   position: absolute;
   z-index: 3;
   color: rgba(244, 226, 206, 1);
   font-size: 120px;
-  top: 10vh;
-  left: 15vh;
+  top: 2vh;
+  left: 7%;
+  margin: 0;
 }
 
 .disc {
+  position: absolute;
   font-size: 33px;
   font-style: italic;
   color: rgba(244, 226, 206, 1);
-  position: absolute;
   z-index: 3;
-  top: 39vh;
-  left: 15.6vh;
+  top: 142px;
+  left: 7%;
+  margin: 0;
 }
 
 .disc2 {
@@ -169,7 +179,8 @@ nav a:hover::after {
   position: absolute;
   z-index: 3;
   color: rgba(244, 226, 206, 1);
-  top: 47vh;
-  left: 15.3vh;
+  top: 160px;
+  left: 7%;
+  margin: 0;
   margin-top: 20px;
 }
