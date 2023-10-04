@@ -6,6 +6,11 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
 
+@font-face {
+  font-family: ChopinScript;
+  src: url(../fonts/Bulletto\ Killa.ttf);
+}
+
 * {
   font-family: "Playfair Display", serif;
 }
@@ -193,8 +198,7 @@ nav a:hover::after {
   left: 0;
 }
 .product-name {
-  font-family: "Roboto Slab", serif;
-
+  font-family: "ChopinScript";
   position: absolute;
   z-index: 3;
   color: rgba(244, 226, 206, 1);
@@ -202,6 +206,7 @@ nav a:hover::after {
   top: 2vh;
   left: 7%;
   margin: 0;
+  font-weight: 100;
 }
 
 .disc {
