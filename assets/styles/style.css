@@ -208,13 +208,15 @@ nav a:hover::after {
 }
 
 .product-name {
-  font-family: "Roboto Slab", serif;
+  font-family: "Roboto Slab", sans-serif;
   position: absolute;
   z-index: 3;
   color: rgba(244, 226, 206, 1);
   font-size: 125px;
   margin: 0;
   top: 2%;
+  text-shadow: -3px -3px 0 black, 3px -3px 0 black, -3px 3px 0 black,
+    3px 3px 0 black;
 }
 
 .disc {
