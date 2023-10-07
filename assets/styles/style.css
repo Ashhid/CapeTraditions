@@ -28,8 +28,6 @@ body {
   padding: 0;
   scroll-behavior: smooth;
 }
-
-html,
 body {
   overflow-x: hidden;
 }
@@ -70,21 +68,18 @@ body {
   z-index: 1;
 }
 
-/* Image */
 .page-image {
   position: absolute;
   object-fit: cover;
-  z-index: 1; /* Lower z-index to place it below the fake div */
+  z-index: 1;
   top: -2.64%;
   left: 0;
   width: 773px;
   height: 978px;
   flex-shrink: 0;
   left: 43.6%;
-  z-index: 1; /* Example z-index */
+  z-index: 1;
 }
-
-/* Page 2 styles */
 
 .page-2 {
   width: 100%;
@@ -95,7 +90,6 @@ body {
   background-color: rgba(244, 226, 206, 1);
 }
 
-/* Brown background shadow */
 .brown-bg {
   filter: drop-shadow(10px -5px 10px rgba(0, 0, 0, 0.5));
   left: -6%;
