@@ -264,3 +264,58 @@ nav a:hover::after {
   text-align: center;
   margin-top: -2px;
 }
+
+@media (max-width: 1177px) {
+  .brown-bg {
+    top: -200px;
+  }
+
+  .content {
+    top: 28%;
+    left: 7vh;
+  }
+}
+
+@media (max-width: 1106px) {
+  .brown-bg {
+    left: -170px;
+  }
+
+  .content {
+    top: 32vh;
+    left: 10vh;
+  }
+
+  .product-name {
+    font-size: 100px;
+  }
+
+  .disc {
+    font-size: 28px;
+  }
+
+  .disc2 {
+    font-size: 20px;
+  }
+  .title {
+    font-size: 28px;
+    left: 1.3%;
+    margin-top: 5px;
+  }
+
+  .twelve {
+    left: -4vh;
+  }
+
+  .twelve h1 {
+    padding-bottom: 13px;
+  }
+
+  .twelve h1:before {
+    margin-left: 0px;
+  }
+
+  .twelve h1:after {
+    margin-right: -50px;
+  }
+}
